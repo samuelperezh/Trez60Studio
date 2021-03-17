@@ -1,0 +1,30 @@
+@media only screen and (min-width:992px) {
+    .galeria {
+        .contenedor {
+            grid-template-columns: repeat(3, 33.3%);
+        }
+    }
+
+    .navbar-responsive {
+        display: none;
+    }
+
+    .navbar--normal {
+        display: block;
+    }
+
+    .logo__arachis {
+        width: 10em;
+    }
+
+    .pricing {
+        .card:hover {
+            margin-top: -.25rem;
+            margin-bottom: .25rem;
+            box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+            .btn {
+                opacity: 1;
+            }
+        }
+    }
+}

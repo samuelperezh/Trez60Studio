@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <meta name="description"
+        content="Agencia de Marketing Digital en Medellín, expertos en diseño, desarrollo web y fotografía">
+    <meta name="keywords"
+        content="Agencia, Marketing digital, Desarrollo web, Estudio fotográfico, Posicionamiento, SEO, Wordpress, Medellín, Colombia">
+    <meta name="author" content="Trez60Studio">
+    <title>Trez60Studio - Agencia de Marketing Digital</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!--Normalize CSS-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Hoja de estilos-->
+    <link rel="stylesheet" href="css/style.min.css">
+    <!--Fuentes personalizadas-->
+    <link href="fonts/style.css" rel="stylesheet">
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/d371cd1bf1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Navegación-->
+    <header>
+        <nav class="navbar--normal">
+            <ul>
+                <li><a href="paginas/portafolio.html">Portafolio</a></li>
+                <li><a href="paginas/nosotros.html">Nosotros</a></li>
+                <li><a href="index.html"><img src="img/logo.svg" alt="Inicio"></a></li>
+                <li><a href="paginas/servicios.html">Servicios</a></button></li>
+                <li><a href="paginas/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Navegación responsive-->
+    <nav class="navbar navbar--responsive sticky-top bg-black">
+        <div class="container-fluid mx-4">
+            <a href="index.html"><img src="img/logo.svg" alt="Inicio" class="navbar-brand m-0 ancho"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
+                aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars fa-lg"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="/paginas/portafolio.html">Portafolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/paginas/nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/paginas/servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/paginas/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Contenido principal-->
+    <div id="banner" class="carousel slide banner" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="img/banner1.jpg" class="d-block w-100" alt="Banner 1">
+            </div>
+            <div class="carousel-item active">
+                <img src="img/banner2.jpg" class="d-block w-100" alt="Banner 2">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#banner" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#banner" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+    <div id="banner--responsive" class="carousel slide banner--responsive" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="img/banner1Responsive.jpg" class="d-block w-100" alt="Banner 1">
+            </div>
+            <div class="carousel-item active">
+                <img src="img/banner2Responsive.jpg" class="d-block w-100" alt="Banner 2">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#banner--responsive" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#banner--responsive" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+    <h1 class="hide">Trez60Studio</h1>
+    <!--Pie de página-->
+    <footer>
+        <p class="footer">Copyright <b class="numeros">2021</b> - Creado por Samuel Pérez</p>
+        <div><i class="fab fa-facebook-f"></i><a href="https://facebook.com/trez60studio/"
+                class="a--blanco">Facebook</a>
+        </div>
+        <div><i class="fab fa-instagram"></i><a href="https://instagram.com/trez60studio/"
+                class="a--blanco">Instagram</a>
+        </div>
+    </footer>
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

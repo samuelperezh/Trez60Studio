@@ -1,0 +1,23 @@
+@media only screen and (min-width:0px) {
+    main {
+        margin: 1em;
+    }
+
+    .galeria {
+        .contenedor {
+            grid-template-columns: repeat(3, 33.3%);
+        }
+    }
+
+    .navbar--normal {
+        display: none;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .logo__arachis {
+        width: 7em;
+    }
+}
