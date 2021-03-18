@@ -295,6 +295,10 @@ p.footer {
   transition: all 0.2s;
 }
 
+.error404 {
+  font-size: 5em;
+}
+
 footer {
   margin-top: auto;
   padding: 3em 2em;
