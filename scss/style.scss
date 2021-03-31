@@ -285,6 +285,24 @@ p.footer {
     font-size: 5em;
 }
 
+.relativo--h2 {
+    background: -webkit-linear-gradient(90deg, rgba(221,231,55,1) 0%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 12em;
+    left: 1.7em;
+}
+
+.relativo--h3 {
+    background: -webkit-linear-gradient(90deg, rgba(231,55,55,1) 0%, rgba(64,0,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 15em;
+    left: 2em;
+}
+
 footer {
     margin-top: auto;
     padding: 3em 2em;
